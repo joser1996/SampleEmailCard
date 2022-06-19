@@ -1,25 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Card from "./components/Card.jsx";
+import Test from "./components/Test.jsx";
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		//Parent Container
+		<div className="flex items-center justify-center h-screen bg-zinc-700">
+			{/* <Card /> */}
+			<Test />
+		</div>
+	);
 }
 
 export default App;
